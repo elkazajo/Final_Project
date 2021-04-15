@@ -1,7 +1,7 @@
 package enums;
 
 public enum MusicGenre {
-    RAP("Rap"), ROCK("Rock"), POP_LATINO("Pop-Latino"), FLAMENCO("Flamenco");
+    RAP("rap"), ROCK("rock"), POP_LATINO("pop-Latino"), FLAMENCO("flamenco");
 
     private final String genre;
 
