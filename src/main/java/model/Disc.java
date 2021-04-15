@@ -25,6 +25,8 @@ public class Disc {
         for (Composition composition : burn) {
             if (composition.getDuration().intValue() == minutes) {
                 out.println(composition);
+            } else {
+                out.println("Track wasn't found. Try again.");
             }
         }
         out.println("");
@@ -35,6 +37,8 @@ public class Disc {
         for (Composition composition : burn) {
             if (composition.getMusicGenre().equals(genre)) {
                 out.println(composition);
+            } else {
+                out.println("Track wasn't found. Try again.");
             }
         }
         out.println("");
